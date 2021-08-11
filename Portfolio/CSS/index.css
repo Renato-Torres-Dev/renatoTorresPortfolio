@@ -1,0 +1,320 @@
+header{
+    background-color: #261447;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 30px;
+    box-shadow: 0px 8px 0px #0D0221;
+    margin-bottom: 8px;
+}
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    flex-grow: 1;
+}
+
+header nav a::before{
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-color: #1FC7B3;
+    position: absolute;
+    left: -15px;
+    top: calc(50% - 4px);
+}
+
+header nav a{
+    color: #FF6C11;
+    font-size: 15px;
+    font-family: "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+}
+
+header #button{
+    display: inline-block;
+    background-color: #1FC7B3;
+    font-family: "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    text-decoration: none;
+    color: #261447;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px #0D0221;
+}
+
+body #banner{
+    display: block;
+    position: relative;
+    box-shadow: 0px 8px 0px #261447;
+    margin-bottom: 8px;
+}
+
+body #banner .banner-content{
+    position: absolute;
+    top: 120px;
+    left: 90px;
+}
+
+body #banner .banner-content .title-container{
+    background-color: #261447;
+    padding: 16px 140px 16px 75px;
+    box-shadow: 8px 8px 0px #0D0221;
+}
+
+body #banner img{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+body #banner .banner-content .title-container h1{
+    font-family: "Rock Salt";
+    font-size: 40px;
+    color: #F25A70;
+    line-height: 95px;
+    text-shadow: 4px 4px 0px #0D0221;
+}
+
+body #banner .banner-content .title-container h2{
+    font-family: "Rock Salt";
+    font-size: 30px;
+    color: #FF6C11;
+    line-height: 72px;
+    text-shadow: 4px 4px 0px #0D0221;
+}
+
+body #banner .banner-content .buttons-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 24px;
+}
+
+body #banner .banner-content .buttons-container a{
+    background-color: #1FC7B3;
+    color: #261447;
+    padding: 20px;
+    font-family: "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 6px 6px 0px #0D0221;
+}
+
+body #skills{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #F25A70;
+    height: auto;
+    width: 100%;
+    padding: 50px 0px 100px;
+    box-shadow: 0px 8px 0px #1FC7B3;
+    margin-bottom: 8px;
+}
+
+body #skills .skills-title{
+    font-family: "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    color: #FFF;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+body #skills .skills-programs{
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 300px;
+    row-gap: 50px;
+}
+
+body #skills .skills-programs .skill-item{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+body #skills .skills-programs .skill-item > div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    margin-left: 25px;
+    height: 90px;
+}
+
+body #skills .skills-programs .skill-item h3{
+    font-family: "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    color: #FFF;
+    font-size: 25px;
+}
+
+body #skills .skills-programs .skill-item div div{
+    height: 30px;
+    width: 320px;
+    background-color: #fff;
+    border: 5px solid #0D0221;
+    position: relative;
+}
+
+body #skills .skills-programs .skill-item div div::before{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    background-color: #261447;
+    position: absolute;
+}
+
+body #skills .skills-programs .skill-item img{
+    height: 100%;
+    width: 90px;
+}
+
+.skill-html::before{
+    width: 50%;
+}
+
+.skill-css::before{
+    width: 60%;
+}
+
+.skill-js::before{
+    width: 30%;
+}
+
+.skill-react::before{
+    width: 20%;
+}
+
+.skill-node::before{
+    width: 40%;
+}
+
+.skill-angular::before{
+    width: 20%;
+}
+
+body #projetos{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #0D0221;
+    height: auto;
+    width: 100%;
+    padding: 50px 0px 100px;
+    margin-bottom: 8px;
+    box-shadow: 0px 8px 0px #F25A70;
+}
+
+body #projetos .projetos-title{
+    font-family: "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    font-size: 40px;
+    color: #FFF;
+    line-height: 40px;
+}
+
+body #projetos .projetos-container{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+body #projetos .projetos-container img{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+     background-color: #F25A70;
+     box-shadow: 8px 8px 0px #C0C;
+}
+
+body #sobre{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #1FC7B3;
+    height: auto;
+    width: 100%;
+    padding: 50px 0px 100px;
+    margin-bottom: 8px;
+    box-shadow: 0px 8px 0px #0D0221;
+}
+
+body #sobre .sobre-title{
+    font-family: "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    font-size: 40px;
+    color: #F25A70;
+    line-height: 40px;
+}
+
+body #sobre div h2{
+    font-family:  "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    font-size: 20px;
+    color: #261447;
+    line-height: 40px;
+    text-align: justify;
+    padding: 40px 80px 0px 80px;
+}
+
+body #sobre div h2 a{
+    text-decoration: none;
+    color: #F25A70;
+}
+
+body #contato{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #FF6C11;
+    height: auto;
+    width: 100%;
+    padding: 50px 0px 100px;
+    margin-bottom: 8px;
+    box-shadow: 0px 8px 0px #1FC7B3;
+}
+
+body #contato .contato-title{
+    font-family:  "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    font-size: 40px;
+    color: #261447;
+    line-height: 40px;
+}
+
+body #contato .contato-container{
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 300px;
+    row-gap: 50px;
+}
+
+body #contato .contato-container div{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+body #contato .contato-container div a{
+    text-decoration: none;
+    font-family: "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    font-size: 20px;
+    color: #FFF;
+    line-height: 40px;
+}
