@@ -185,15 +185,15 @@ body #skills .skills-programs .skill-item img{
 }
 
 .skill-html::before{
-    width: 50%;
+    width: 75%;
 }
 
 .skill-css::before{
-    width: 60%;
+    width: 75%;
 }
 
 .skill-js::before{
-    width: 30%;
+    width: 45%;
 }
 
 .skill-react::before{
@@ -298,9 +298,9 @@ body #contato .contato-title{
 body #contato .contato-container{
     margin-top: 65px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 300px;
-    row-gap: 50px;
+    grid-template-columns: auto auto;
+    column-gap: 350px;
+    row-gap: 100px;
 }
 
 body #contato .contato-container div{
@@ -317,4 +317,18 @@ body #contato .contato-container div a{
     font-size: 20px;
     color: #FFF;
     line-height: 40px;
+}
+
+footer{
+    background-color: #000;
+}
+
+footer h3{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    color: #fff;
+    font-family: "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    font-size: 10px;
+    padding: 20px 0px 20px 20px;
 }
