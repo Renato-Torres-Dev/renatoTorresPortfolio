@@ -141,6 +141,14 @@ body #skills .skills-programs{
     row-gap: 50px;
 }
 
+@media (min-width: 992px){
+    .justify-content-lg-center {
+        display: contents;
+        justify-content: center !important;
+    }
+}
+
+
 body #skills .skills-programs .skill-item{
     display: flex;
     flex-flow: row nowrap;
