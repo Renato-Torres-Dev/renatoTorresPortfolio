@@ -154,7 +154,7 @@ body #skills .skills-programs .skill-item{
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
-
+    margin: 10px 0;
 }
 
 body #skills .skills-programs .skill-item > div{
