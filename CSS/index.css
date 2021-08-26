@@ -11,13 +11,11 @@
     0%{
         background-color: #1FC7B3;
         color: #261447;
-        height: 60px;
         box-shadow: 5px 5px 0px #0D0221;
     }
     50%{
         background-color: #1FC7B3;
         color: #261447;
-        height: 40px;
         box-shadow: 2px 2px 0px #0D0221;
     }
     100%{
