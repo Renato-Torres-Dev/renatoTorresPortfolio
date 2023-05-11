@@ -324,6 +324,39 @@ body #sobre div h2 a{
     color: #F25A70;
 }
 
+body #jobs{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #1FC7B3;
+    height: auto;
+    width: 100%;
+    padding: 50px 0px 100px;
+    margin-bottom: 8px;
+    box-shadow: 0px 8px 0px #0D0221;
+}
+
+body #jobs .sobre-title{
+    font-family: "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    font-size: 40px;
+    color: #F25A70;
+    line-height: 40px;
+}
+
+body #jobs div h2{
+    font-family:  "Press Start 2P", "Terminal", "Fixedsys Regular" , cursive;
+    font-size: 20px;
+    color: #261447;
+    line-height: 40px;
+    text-align: justify;
+    padding: 40px 80px 0px 80px;
+}
+
+body #jobs div h2 a{
+    text-decoration: none;
+    color: #F25A70;
+}
+
 body #contato{
     display: flex;
     flex-flow: column nowrap;
