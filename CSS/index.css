@@ -245,7 +245,7 @@ body #skills .skills-programs .skill-item img{
 }
 
 .skill-react::before{
-    width: 10%;
+    width: 30%;
 }
 
 .skill-node::before{
