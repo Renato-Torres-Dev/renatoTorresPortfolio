@@ -233,27 +233,27 @@ body #skills .skills-programs .skill-item img{
 }
 
 .skill-html::before{
-    width: 65%;
+    width: 75%;
 }
 
 .skill-css::before{
-    width: 65%;
+    width: 75%;
 }
 
 .skill-js::before{
-    width: 45%;
+    width: 60%;
 }
 
 .skill-react::before{
-    width: 30%;
+    width: 45%;
 }
 
 .skill-node::before{
-    width: 10%;
+    width: 20%;
 }
 
 .skill-angular::before{
-    width: 10%;
+    width: 20%;
 }
 
 body #projetos{
